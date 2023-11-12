@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+  }
+button {
+    width: 120px;
+    background-color: #3882f6;
+    flex-grow: 0;
+    border-radius: 8px;
+    color: #EfE7EB;
+    height: 36px;
+    font-size: 18px;
+    border: none;
+}
+a, .subtitle, .image-container {
+    color: #EfE7EB;
+    text-decoration: none; /* no underline */
+    font-size: 18px;
+  }
+ul {
+    list-style-type: none;
+}
+.header, .footer {
+    text-align: center;
+    background-color: #1f2937;
+}
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+.links {
+    margin:0%;
+    display: flex;
+    gap: 15px;
+}
+.logo, .action-title {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.title {
+    font-size: 48px;
+    font-weight:900;
+    color: #F9FAF8;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+}
+.left-content {
+    display: flex;
+    flex-direction: column;
+   flex: 1;
+   padding-right: 5%;
+}
+.image-container {
+    background-color: gray;
+    display: flex;
+    text-align: center;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    max-width: 400px;
+}
+.content {
+ display: flex;
+ flex-direction: column;
+ flex: 1;
+}
+.flyers-header {
+    text-align: center;
+    font-size: 36px;
+}
+.flyers-content {
+    display: flex;
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+.flyers-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2%
+}
+.quote {
+    background-color: #e5e7eb;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.author {
+    align-self: flex-end;
+}
+.quote-content {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+.action-container {
+    display: flex;
+    background-color: #3882f6;
+    margin: 10%;
+}
+.action-content {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.action-button {
+    margin: 5%;
+    width: 120px;
+    background-color: #3882f6;
+    flex-grow: 0;
+    border-radius: 8px;
+    color: #EfE7EB;
+    height: 36px;
+    font-size: 18px;
+    border: #EfE7EB;
+    border: solid;
+    flex-shrink: 0;
+    
+}
